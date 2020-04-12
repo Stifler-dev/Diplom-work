@@ -1,0 +1,85 @@
+strong>h1 {
+	float: left;
+	margin-left: 30%;
+   font-family: 'Roboto Slab', serif; 
+}
+
+ul>li>img {
+	height:15px;
+	width:15px;
+}
+
+ul>li>strong {
+	color: #e8622d;
+}
+
+.block {
+	width: 316%;
+   padding: 5px 9px;
+   cursor: pointer;
+
+}
+
+.btn1:hover {
+   border-bottom: 2px solid rgba(217, 91, 72, 1);
+   margin-top: 7px;
+   cursor: pointer;
+}
+.btn1:active {
+   border-bottom: 0;
+   margin-top: 9px;
+   cursor: pointer;
+}
+
+
+.btn1 {
+   float: left;
+   margin-left: 30%; 
+   margin-top: 5px;
+   border-radius: 5px;
+   padding: 5px 9px;
+   font-size: 1.2em;
+   background-color: rgba(236, 101, 80, 1);
+   text-shadow: #454545 0 0 2px;
+   border-bottom: 4px solid rgba(217, 91, 72, 1);
+   font-family: 'Roboto Slab', serif;
+   color: white;
+   text-align: center;
+   width: 40%;
+   cursor: pointer;
+}
+
+
+.block1 {
+   width: 500px;
+   float: left;/*слева*/
+   margin-left: 3%;/*отступы */
+   margin-bottom: 20px;/**/
+   border: 1px solid #e3e3e3;/*граница*/
+   background-color: #fff;/*задний фон*/
+   box-sizing: border-box;/*нужно для того чтобы наш бордер входил */
+   max-width: 500px;/*чтобы блоки сильно не расстягивались*/
+   border-radius: 10px;/**/
+}
+
+.block1>strong {
+   font-size: 1.3em;
+   width: 80%;
+   margin: 7px 10%;
+   float: left;
+   text-align: center;
+   color: #333;
+}
+
+.block1>ul>li {
+   margin: 7px 0%;
+   margin-left: 3%;/*отступы */
+}
+
+.block1>ul>li>img {
+   margin-left: 1%;
+}
+
+#news {
+   width: 350px;
+}

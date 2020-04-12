@@ -1,0 +1,74 @@
+/*
+header{
+	height: 3%;
+}
+*/
+
+
+.article2 {
+	float: left;/*слева*/
+	margin-right: 3%;/*отступы */
+	margin-bottom: 20px;/**/
+	border: 1px solid #e3e3e3;/*граница*/
+	background-color: #fff;/*задний фон*/
+	box-sizing: border-box;/*нужно для того чтобы наш бордер входил */
+	max-width: 360px;/*чтобы блоки сильно не расстягивались*/
+	border-radius: 5px;/**/
+	height:300px; 
+	width:360px;
+}
+
+.article2>img {
+	border-radius: 5px 5px 0 0;/*чтобы картинка была с закругленными углами*/
+	width: 100%;
+	height: 130px;
+}
+
+.article2>a {/*задали стили для заголовка */
+   margin-top: 15px;
+   margin-bottom: 5px;
+   margin-left: 11px;
+ 	font-size: 1.2em;
+	width: 95%;
+	/*margin: 5px 10%;*/
+	float: left;
+	/*text-align: center;*/
+	color: black;
+}
+
+.article2>a:hover {
+	color:#e8622d;
+}
+
+.article2>span {
+	float: left;/*слева*/
+	margin-left: 3%;/*отступы */
+    color: #6e6e6e;
+    margin-bottom: 8px;/**/
+
+}
+
+#news {
+	width: 1200px;
+	/*margin-left: 5%;*/
+}
+
+ .article2 {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+    z-index: 5px;
+    cursor: pointer;
+   }
+
+   .article2 img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+    cursor: pointer;
+    
+   }
+
+   .article2 img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+     cursor: pointer;
+   }
+

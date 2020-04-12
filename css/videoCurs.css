@@ -1,0 +1,56 @@
+
+
+
+.article1 {
+	float: left;/*слева*/
+	margin-right: 4%;/*отступы */
+	margin-bottom: 30px;/**/
+	/*border: 1px solid #e3e3e3;/*граница*/
+	/*background-color: #fff;/*задний фон*/
+	box-sizing: border-box;/*нужно для того чтобы наш бордер входил */
+	max-width: 350px;/*чтобы блоки сильно не расстягивались*/
+	/*border-radius: 5px;/**/
+
+}
+
+.article1>a {/*задали стили для заголовка */
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2em;
+	margin-top: -6px;
+	float: left;
+	color: #333;
+}
+
+
+.article1>a:hover {
+	color:#e8622d;
+	
+
+}
+
+/*рамка на картинке*/
+.article1>a>img {
+	height:220px;
+	width: 520px;
+	border: 4px solid #808080;
+    transition: all.6s ease;
+}
+
+
+/*рамка меняет цвет при наведении*/
+.article1>a>img:hover {
+	border: 4px solid #e8622d;;
+	 transition: all.6s ease;
+}
+
+.article1>span {
+	float: left;
+	margin-top: 1px;
+	margin-right:50px;
+	color: #808080;
+}
+
+#news {
+   width: 1220px;
+}
+

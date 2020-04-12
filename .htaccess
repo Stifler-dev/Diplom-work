@@ -1,0 +1,53 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^index?$ index.php [NC,L]
+  RewriteRule ^ad?$ ad.php [NC,L]
+  RewriteRule ^kontakti?$ kontakti.php [NC,L]
+  RewriteRule ^page_1?$ page_1.php [NC,L]
+  RewriteRule ^page_2?$ page_2.php [NC,L]
+  RewriteRule ^page_3?$ page_3.php [NC,L]
+  RewriteRule ^page_4?$ page_4.php [NC,L]
+  RewriteRule ^page_5?$ page_5.php [NC,L]
+  RewriteRule ^page_6?$ page_6.php [NC,L]
+  RewriteRule ^page_7?$ page_7.php [NC,L]
+  RewriteRule ^page_8?$ page_8.php [NC,L]
+  RewriteRule ^page_9?$ page_9.php [NC,L]
+  RewriteRule ^page_10?$ page_10.php [NC,L]
+  RewriteRule ^page_11?$ page_11.php [NC,L]
+  RewriteRule ^page_12?$ page_12.php [NC,L]
+
+  RewriteRule ^menu?$ menu.php [NC,L]
+  RewriteRule ^menu2?$ menu2.php [NC,L]
+  RewriteRule ^menu3?$ menu3.php [NC,L]
+  
+
+
+
+
+  RewriteRule ^gameios?$ gameios.php [NC,L]
+
+  RewriteRule ^internet_magazin?$ internet_magazin.php [NC,L]
+
+  RewriteRule ^videocurs_page1?$ videocurs_page1.php [NC,L]
+  RewriteRule ^videocurs_page2?$ videocurs_page2.php [NC,L]
+  RewriteRule ^videocurs_page3?$ videocurs_page3.php [NC,L]
+  RewriteRule ^videocurs_page4?$ videocurs_page4.php [NC,L]
+  RewriteRule ^videocurs_page5?$ videocurs_page5.php [NC,L]
+  RewriteRule ^videocurs_page6?$ videocurs_page6.php [NC,L]
+  RewriteRule ^videocurs_page7?$ videocurs_page7.php [NC,L]
+  RewriteRule ^videocurs_page8?$ videocurs_page8.php [NC,L]
+  RewriteRule ^videocurs_page9?$ videocurs_page9.php [NC,L]
+   RewriteRule ^videocurs_page10?$ videocurs_page10.php [NC,L]
+
+  RewriteRule ^corzina?$ corzina.php [NC,L]
+
+  RewriteRule ^reg?$ reg.php [NC,L]
+  RewriteRule ^auth?$ auth.php [NC,L]
+  RewriteRule ^vhod?$ vhod.php [NC,L]
+  RewriteRule ^podpiska?$ podpiska.php [NC,L]
+  RewriteRule ^videoCurs?$ videoCurs.php [NC,L]
+  RewriteRule ^buysite?$ buysite.php [NC,L]
+  RewriteRule ^pokazbolshe?$ pokazbolshe.php [NC,L]
+  RewriteRule ^podderjka?$  podderjka.php [NC,L]
+ 
+</IfModule>
